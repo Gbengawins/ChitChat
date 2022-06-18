@@ -1,5 +1,5 @@
 import React from 'react';
-import { MdOutlineMessage } from 'react-icons/md';
+import { IoLogoEdge } from 'react-icons/io5';
 
 const Navbar = () => {
   return (
@@ -7,7 +7,7 @@ const Navbar = () => {
       <div style={{
         width: "100%", 
         height: "15%",
-        backgroundColor: "#48BB78",
+        backgroundColor: "lightblue",
         padding: "20px",
         fontSize: "25px",
         color: "white",
@@ -16,10 +16,10 @@ const Navbar = () => {
         alignItems: "center",
         zIndex: "9"
       }}>
-        <MdOutlineMessage style={{ marginRight: "15px", 
-          color: "blue", fontSize: "30px", fontWeight: "bold"
+        <IoLogoEdge style={{ marginRight: "15px", 
+          color: "gray", fontSize: "30px", fontWeight: "bold"
       }} />
-        <h1>Chit-chat</h1>
+        <h1>Happy Chit-Chatting</h1>
         </div>
     </>
   );
